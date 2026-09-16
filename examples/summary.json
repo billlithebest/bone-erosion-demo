@@ -1,0 +1,35 @@
+{
+  "seed": 7,
+  "threshold": 550.0,
+  "min_voxels": 8,
+  "spacing_xyz_mm": [
+    0.2,
+    0.2,
+    0.3
+  ],
+  "shape_zyx": [
+    64,
+    64,
+    64
+  ],
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "results": [
+    {
+      "timepoint": "baseline",
+      "total_volume_mm3": 4.308000000000001,
+      "component_count": 2,
+      "dice_vs_synthetic_truth": 1.0,
+      "truth_volume_mm3": 4.308000000000001
+    },
+    {
+      "timepoint": "followup",
+      "total_volume_mm3": 10.236000000000002,
+      "component_count": 2,
+      "dice_vs_synthetic_truth": 1.0,
+      "truth_volume_mm3": 10.236000000000002
+    }
+  ],
+  "change_mm3": 5.928000000000002,
+  "change_percent": 137.60445682451257
+}
