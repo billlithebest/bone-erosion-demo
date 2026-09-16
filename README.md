@@ -74,4 +74,4 @@ A useful next step would be a Slicer scripted module, followed by testing Simple
 - [Manske Lab](https://www.manskelab.ca/): research context; the lab describes CT, MR and ultrasound work on musculoskeletal health. This independent demo is not affiliated with the lab.
 - [3D Slicer data loading documentation](https://slicer.readthedocs.io/en/latest/user_guide/data_loading_and_saving.html): NRRD support and loading workflow.
 
-Local verification: Python 3.12.14 and NumPy 2.3.5; six tests passed. The GitHub workflow is supplied but has not yet run remotely.
+Local verification: Python 3.12.14 and NumPy 2.3.5; six tests passed. GitHub Actions also passed on Python 3.10 and 3.12.
